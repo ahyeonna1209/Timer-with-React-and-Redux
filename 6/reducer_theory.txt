@@ -1,0 +1,27 @@
+- dispatch : if you want to change the data or state, you need to dispatch an action
+- reducer : you will send an action to reducer, and this reducer will change the object for you. 
+            reducer is in charge of changing the state
+            
+
+< Actions we need in this project >
+
+1) IsPlaying
+IsPlaying : true > show stop button
+IsPlaying : false > show play button
+
+2) CountingDuration : 1500s (25:00)
+
+3) ElapsedTime : 0 +1, +2, ,,,, 1500
+
+
+< reducer() Theory >
+1) Import
+2) Actions
+3) Action Creators
+4) Reducer
+5) Reducer Function
+6) Export Action Creators
+7) Export Reducer
+
+
+... next step : connect reducer with the actual App
